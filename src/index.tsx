@@ -1,5 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
+import Nav from './component/navbar';
 import App from './component/app';
 
 const root = ReactDOM.createRoot(
@@ -7,6 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Nav/>
+    <App children={undefined}/>
   </React.StrictMode>
 );

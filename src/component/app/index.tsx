@@ -9,9 +9,8 @@ interface defaultLayoutProps {
 
 const App: React.FC<defaultLayoutProps> = (props) => {
   return (
-    <Layout/>
+    < ><div className="btn btn-danger">Button</div><h1>hi</h1></>
   )
 }
-
 
 export default App;
